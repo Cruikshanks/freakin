@@ -6,7 +6,15 @@ This gem is ***freakin awesome*** in that it does nothing useful! It is purely a
 
 ## Installation
 
-**NOT RELEASED TO RUBYGEMS YET SO FOLLOWING WON'T WORK!!**
+### Actual installation
+
+As **Freakin** has not yet been released to Rubygems the out of the box installation notes below won't work, but are preserved for when this does get released.
+
+To install the gem having cloned the directory execute
+
+    $ bundle exec rake install
+
+### Standard installation
 
 Add this line to your application's Gemfile:
 
@@ -14,17 +22,35 @@ Add this line to your application's Gemfile:
 gem 'freakin'
 ```
 
-And then execute:
+And then execute
 
     $ bundle
 
-Or install it yourself as:
+Or install it yourself as
 
     $ gem install freakin
 
 ## Usage
 
-You'll be blown away by its
+### Development
+
+Whilst just developing a gem like **Freakin** you can execute it with
+
+    $ ruby -Ilib ./exe/freakin
+
+and pass in arguments as well
+
+    $ ruby -Ilib ./exe/freakin 'spanish'
+
+### Actual
+
+Once installed you can just call
+
+    $ bundle exec freakin
+
+and
+
+    $ bundle exec freakin 'spanish'
 
 ## Development
 
@@ -39,3 +65,5 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/cruiks
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+> If you don't add a license it's neither free or open!
