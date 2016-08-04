@@ -1,3 +1,3 @@
-module Freakin
-  VERSION = "0.1.0"
+module Freakin #:nodoc:
+  VERSION = '0.1.0'.freeze
 end
