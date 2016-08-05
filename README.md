@@ -1,5 +1,7 @@
 # Freakin
 
+[![Gem Version](https://badge.fury.io/rb/freakin.svg)](https://badge.fury.io/rb/freakin)
+
 This gem is ***freakin awesome*** in that it does nothing useful! It is purely an exercise in me getting to grips with creating an executable gem.
 
 > Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/freakin`. To experiment with that code, run `bin/console` for an interactive prompt.
