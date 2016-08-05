@@ -1,15 +1,15 @@
 sudo: false
 language: ruby
 rvm:
-  - 2.3.1
+- 2.3.1
 before_install: gem install bundler -v 1.12.5
-
-# Travis CI clones repositories to a depth of 50 commits, which is only really
-# useful if you are performing git operations.
-# https://docs.travis-ci.com/user/customizing-the-build/#Git-Clone-Depth
 git:
   depth: 3
-
-# enable Bundler caching
-# https://docs.travis-ci.com/user/languages/ruby#Caching-Bundler
 cache: bundler
+deploy:
+  provider: rubygems
+  api_key:
+    secure: 1sy51Om6nHpwRzcvb4u5dphhqNEGuLYeqqF/bl7C+r48tMrURogGA64BjrPUlqTXGyHSDo6TSVUZepI6nkTUTZSAPCvEXXA23c3QhgUTuC/dGpa82qmc6Gg99snBzFy6Hgp4Bl+rjnZJYI922QE0QpaWVp9iKsoVutNYGqxm4ReJaKaZx46tCcQzCo8Y8X3kUZjbKc+Jsw5lV8NcEFI4skmzd3AqzQe5JiBjkwUpf4GM8bXFwf9pTz9aRM/iUGi+87HH4Pd6HJ7YhH/8+GGvYiFATwL+BEHdyFUbZYCtec2aN5YDmdnLjxJ35Hyhv7EUa9w/BcDYqCd27pYTTu5+0NDcDdvqxx6Gm/iVvRu2IiQJyFlluuisLE0o0v3IMv1xC8ycHYHb26aVRY6scyCaR3jFKDdfc2TWbhxh+i1N9onnYJ6/CI71nMVYbKFSQZR9Itu0mXgGZ0QtoDDXvXd/TAuP8oJEA3r++OjfOK15vi3sLQLR8/8LLinbDyIaemFATWyQxxYZ4pCrXhRoCtZ1prsUnAGo7+Nm67hoTHuIB9/CR0KJduB+Fjpz/SwUQF+chZ3v/wScvicHtluLHIg7cBBWerkHV/8zUhW3MTT4XtoNzSgdDdAJKRuUfZUVj6Jg2k6XG7dTbAq8UjGH2hPVGjXAvHg32DiC13Jnp9o8zUA=
+  gem: freakin
+  on:
+    repo: Cruikshanks/freakin
