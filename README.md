@@ -5,21 +5,11 @@
 
 This gem is ***freakin awesome*** in that it does nothing useful! It is purely an exercise in me getting to grips with creating an executable gem.
 
-> Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/freakin`. To experiment with that code, run `bin/console` for an interactive prompt.
-
 ## Installation
 
-### Actual installation
+### Standard
 
-As **Freakin** has not yet been released to Rubygems the out of the box installation notes below won't work, but are preserved for when this does get released.
-
-To install the gem having cloned the directory execute
-
-    $ bundle exec rake install
-
-### Standard installation
-
-Add this line to your application's Gemfile:
+Add this line to your application's Gemfile
 
 ```ruby
 gem 'freakin'
@@ -33,7 +23,23 @@ Or install it yourself as
 
     $ gem install freakin
 
+### Development
+
+To install the gem having cloned the directory execute
+
+    $ bundle exec rake install
+
 ## Usage
+
+### Standard
+
+Once installed you can just call
+
+    $ bundle exec freakin
+
+and
+
+    $ bundle exec freakin 'spanish'
 
 ### Development
 
@@ -44,16 +50,6 @@ Whilst just developing a gem like **Freakin** you can execute it with
 and pass in arguments as well
 
     $ ruby -Ilib ./exe/freakin 'spanish'
-
-### Actual
-
-Once installed you can just call
-
-    $ bundle exec freakin
-
-and
-
-    $ bundle exec freakin 'spanish'
 
 ## Development
 
