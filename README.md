@@ -1,5 +1,6 @@
 # Freakin
 
+[![Build Status](https://travis-ci.org/Cruikshanks/freakin.svg?branch=master)](https://travis-ci.org/Cruikshanks/freakin)
 [![Gem Version](https://badge.fury.io/rb/freakin.svg)](https://badge.fury.io/rb/freakin)
 
 This gem is ***freakin awesome*** in that it does nothing useful! It is purely an exercise in me getting to grips with creating an executable gem.
